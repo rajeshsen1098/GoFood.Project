@@ -41,7 +41,7 @@ main {
     padding: 60px;
 }
 
-.signin-form {
+.signup-form {
     max-width: 500px;
     margin: 0 auto;
     padding: 40px;
@@ -51,19 +51,19 @@ main {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.signin-form h2 {
+.signup-form h2 {
     margin-top: 0;
 }
 
-.signin-form label {
+.signup-form label {
     display: block;
     margin-bottom: 5px;
 }
 
-.signin-form input[type="text"],
-.signin-form input[type="tel"],
-.signin-form input[type="email"],
-.signin-form input[type="password"] {
+.signup-form input[type="text"],
+.signup-form input[type="tel"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
@@ -71,7 +71,7 @@ main {
     border-radius: 5px;
 }
 
-.signin-form button {
+.signup-form button {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -80,7 +80,7 @@ main {
     cursor: pointer;
 }
 
-.signin-form button:hover {
+.signup-form button:hover {
     background-color: #555;
 }
 
