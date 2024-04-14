@@ -9,10 +9,14 @@ header {
     color: #fff;
     padding: 15px;
 }
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
 
 .brand-logo {
-    height: 40px;
-    width: auto;
+    height: 50px;
+    width: 250px;
     
 }
 .logo-img{
@@ -32,11 +36,11 @@ header {
     color:#fd2e2e    
 }
 main {
-    background-image: url('image.png'); /* Replace 'background-image.jpg' with your image file path */
-            background-size: cover; /* Cover the entire viewport */
-            background-position: center; /* Center the image */
-            height: 70vh; /* Set height to fill the viewport */
-            margin: 0; /* Remove default body margin */
+    background-image: url('image.png'); 
+            background-size: cover; 
+            background-position: center; 
+            height: 70vh; 
+            margin: 0; 
             padding: 0; 
     padding: 60px;
 }

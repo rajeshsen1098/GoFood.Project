@@ -9,10 +9,13 @@ header {
     color: #fff;
     padding: 15px;
 }
-
+.container{
+    display: flex;
+    justify-content:space-evenly;
+}
 .brand-logo {
     height: 40px;
-    width: auto;
+    width: 250px;
     
 }
 .logo-img{

@@ -38,9 +38,10 @@ header {
 
 }
 .logo{
-    display: flex;
-    align-items: center;
-    // padding-right: 100px;
+    // display: flex;
+    // align-items: center;
+    height: fit-content;
+    padding: 10px 5px;
 }
 .logo-g{
     color:#fd2e2e    
@@ -53,11 +54,12 @@ header {
 }
 
 .go-food {
+    
     font-family: sans-Broadway;
     font-size:30px;
     font-weight: bolder;
-    text-align:start; 
     padding-left: 10px;
+    
 }
 
 // .brand-name h1 {
@@ -94,14 +96,61 @@ header {
     background-color: #9cc491;
 }
 
-.account-info a {
-    color: #fff;
-    text-decoration: none;
-}
+// .account-info a {
+//     color: #fff;
+//     text-decoration: none;
+// }
 
-.account-info a:hover {
-    text-decoration: underline;
-}
+// .account-info a:hover {
+//     text-decoration: underline;
+// }
+.account-info {
+    height: 45px;
+    width: 80px;
+    display: inline-block;
+    padding: 13px;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 10px;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.6s;
+    animation: bn13bouncy 4s infinite linear;
+    position: relative;
+  }
+  
+  .account-info:hover {
+    background-color: #bababa;
+    color: #000000;
+  }
+  
+  @keyframes bn13bouncy {
+    0% {
+      top: 0em;
+    }
+    40% {
+      top: 0em;
+    }
+    43% {
+      top: -0.9em;
+    }
+    46% {
+      top: 0em;
+    }
+    48% {
+      top: -0.4em;
+    }
+    50% {
+      top: 0em;
+    }
+    100% {
+      top: 0em;
+    }
+  }
 .add-to-cart-btn {
     padding: 10px 13px;
     background-color: #9eee76;
